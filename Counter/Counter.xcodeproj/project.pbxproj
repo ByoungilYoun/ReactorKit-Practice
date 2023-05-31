@@ -16,6 +16,8 @@
 		0F2D6D212A27097B00165C81 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D6D202A27097B00165C81 /* CounterTests.swift */; };
 		0F2D6D2B2A27097B00165C81 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D6D2A2A27097B00165C81 /* CounterUITests.swift */; };
 		0F2D6D2D2A27097B00165C81 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D6D2C2A27097B00165C81 /* CounterUITestsLaunchTests.swift */; };
+		0F2D6D3B2A270C3E00165C81 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D6D3A2A270C3E00165C81 /* ReactorKit */; };
+		0F2D6D3E2A270C6100165C81 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D6D3D2A270C6100165C81 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2D6D3B2A270C3E00165C81 /* ReactorKit in Frameworks */,
+				0F2D6D3E2A270C6100165C81 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +147,10 @@
 			dependencies = (
 			);
 			name = Counter;
+			packageProductDependencies = (
+				0F2D6D3A2A270C3E00165C81 /* ReactorKit */,
+				0F2D6D3D2A270C6100165C81 /* SnapKit */,
+			);
 			productName = Counter;
 			productReference = 0F2D6D062A27097A00165C81 /* Counter.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +223,10 @@
 				Base,
 			);
 			mainGroup = 0F2D6CFD2A27097A00165C81;
+			packageReferences = (
+				0F2D6D392A270C3E00165C81 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				0F2D6D3C2A270C6100165C81 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 0F2D6D072A27097A00165C81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -610,6 +622,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F2D6D392A270C3E00165C81 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		0F2D6D3C2A270C6100165C81 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F2D6D3A2A270C3E00165C81 /* ReactorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2D6D392A270C3E00165C81 /* XCRemoteSwiftPackageReference "ReactorKit" */;
+			productName = ReactorKit;
+		};
+		0F2D6D3D2A270C6100165C81 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F2D6D3C2A270C6100165C81 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F2D6CFE2A27097A00165C81 /* Project object */;
 }
