@@ -16,7 +16,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: scene)
-        window?.rootViewController = CounterViewController()
+        let vc = CounterViewController()
+        vc.reactor = CounterViewReactor()
+        window?.rootViewController = vc
         window?.backgroundColor = .systemBackground
         window?.makeKeyAndVisible()
     }

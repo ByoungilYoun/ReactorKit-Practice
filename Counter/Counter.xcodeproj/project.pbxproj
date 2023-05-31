@@ -17,6 +17,7 @@
 		0F2D6D2D2A27097B00165C81 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2D6D2C2A27097B00165C81 /* CounterUITestsLaunchTests.swift */; };
 		0F2D6D3B2A270C3E00165C81 /* ReactorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D6D3A2A270C3E00165C81 /* ReactorKit */; };
 		0F2D6D3E2A270C6100165C81 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0F2D6D3D2A270C6100165C81 /* SnapKit */; };
+		B90CE3B62A27B24400466967 /* CounterViewReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90CE3B52A27B24400466967 /* CounterViewReactor.swift */; };
 		B91AF7552A27A4E200E9C4F8 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = B91AF7542A27A4E200E9C4F8 /* RxCocoa */; };
 		B91AF7572A27A51200E9C4F8 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91AF7562A27A51200E9C4F8 /* CounterViewController.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		0F2D6D262A27097B00165C81 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2D6D2A2A27097B00165C81 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
 		0F2D6D2C2A27097B00165C81 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B90CE3B52A27B24400466967 /* CounterViewReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewReactor.swift; sourceTree = "<group>"; };
 		B91AF7562A27A51200E9C4F8 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				0F2D6D092A27097A00165C81 /* AppDelegate.swift */,
 				0F2D6D0B2A27097A00165C81 /* SceneDelegate.swift */,
 				B91AF7562A27A51200E9C4F8 /* CounterViewController.swift */,
+				B90CE3B52A27B24400466967 /* CounterViewReactor.swift */,
 				0F2D6D0F2A27097A00165C81 /* Main.storyboard */,
 				0F2D6D122A27097B00165C81 /* Assets.xcassets */,
 				0F2D6D142A27097B00165C81 /* LaunchScreen.storyboard */,
@@ -276,6 +279,7 @@
 			files = (
 				B91AF7572A27A51200E9C4F8 /* CounterViewController.swift in Sources */,
 				0F2D6D0A2A27097A00165C81 /* AppDelegate.swift in Sources */,
+				B90CE3B62A27B24400466967 /* CounterViewReactor.swift in Sources */,
 				0F2D6D0C2A27097A00165C81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
